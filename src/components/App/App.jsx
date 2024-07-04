@@ -1,7 +1,6 @@
 import { createRef, useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
-
-import { getImages } from "../api";
+import { getImages } from "../pictures-api";
 import SearchBar from "../SearchBar/SearchBar";
 import ImageGallery from "../ImageGallery/ImageGallery";
 import Loader from "../Loader/Loader";

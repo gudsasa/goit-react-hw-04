@@ -1,7 +1,10 @@
-import css from "./ErrorMsg.module.css";
+import css from './ErrorMsg.module.css';
 
 export default function ErrorMsg() {
   return (
-    <p className={css.text}>Sorry, something went wrong... Please try again!</p>
+    <p className={css.text}>
+      Sorry, something went wrong, please try again later, or contact the
+      service!
+    </p>
   );
 }
