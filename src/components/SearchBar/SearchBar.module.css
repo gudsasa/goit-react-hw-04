@@ -1,0 +1,32 @@
+.header {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #4e75fe;
+}
+.form {
+  display: flex;
+  align-items: center;
+  max-width: 350px;
+  margin: auto;
+}
+.input {
+  padding: 8px 12px;
+  margin-right: 16px;
+  border-radius: 5px;
+  border: none;
+}
+.btn {
+  padding: 8px 12px;
+  max-width: 120px;
+  color: #212121;
+  background-color: #2e69c2;
+  border: none;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #6c8cff;
+}
+.btn:focus {
+  background-color: #90a7fa;
+}
